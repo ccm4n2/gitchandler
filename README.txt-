@@ -1,0 +1,15 @@
+#README
+To compile the program the -std=c++0x flag must be used because we use vectors
+The pos_system.cpp file is the fil that contains the main
+Example compile command: g++ -o test -std=c++0x pos_system.cpp
+
+To Use Program
+default waiter log in username: bob pasword: blue
+default chef log in username: gabe pasword: green
+default manager log in username: drew pasword: tiger
+
+Once logged in you can perfrom all the functions of the type of user you logged in as
+the program walks you through which functions you can perform with the menu options.
+
+If yo add users to the program and close the program you must save the user_database.txt file 
+otherwise the account you created will not log in properly
